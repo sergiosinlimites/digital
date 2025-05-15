@@ -342,13 +342,13 @@ Su principio de funcionamiento se basa en la realimentación que se produce al u
 
 #### Oscilador en anillo con 3 compuertas NOT
 <img src="./Imagenes/Circuito Anillo 3.png" alt="VIH CMOS" width="50%">
-<img src="./Imagenes/Simulación_3_Anillos.JPG" alt="VIH CMOS" width="50%">
-<img src="./Imagenes/Anillo-3-LAB.jpg" alt="VIH CMOS" width="50%">
+<img src="./Imagenes/Esquematico_Anillo_3.png" alt="VIH CMOS" width="50%">
+<img src="./Imagenes/Osciloscopio Anillo 3.jpg" alt="VIH CMOS" width="50%">
 
 #### Oscilador en anillo con 5 compuertas NOT
 <img src="./Imagenes/Circuito Anillo 5.png" alt="VIH CMOS" width="50%">
-<img src="./Imagenes/Simulación_3_Anillos.JPG" alt="VIH CMOS" width="50%">
-<img src="./Imagenes/Anillo-3-LAB.jpg" alt="VIH CMOS" width="50%">
+<img src="./Imagenes/Esquematico_Anillo_5.png" alt="VIH CMOS" width="50%">
+<img src="./Imagenes/Osciloscopio Anillo 5.jpg" alt="VIH CMOS" width="50%">
 
 ####Análisis Osciladores
 
