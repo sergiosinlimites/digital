@@ -221,14 +221,14 @@ Este cálculo sirve principalmente para compuerta CMOS, ya que para compuertas T
 <img src="./Imagenes/potencia-estatica-dinamica.png" width="100%">
 
 La potencia estática se puede ver en la gráfica anterior como la que se queda al realizar la conmutación después del pico inicial.
-Para el TTL es de aproximadamente -36.4uW, mientras que el de CMOS es de aproximadamente -25uW.
-Para el caso de la potencia dinámica, para la tecnología TTL da un valor de aproximadamente -38.6uW, mientras que para CMOS da un valor de }-30uW.
+Para el TTL es de aproximadamente 36.4uW, mientras que el de CMOS es de aproximadamente 25uW.
+Para el caso de la potencia dinámica, para la tecnología TTL da un valor de aproximadamente 38.6uW, mientras que para CMOS da un valor de }30uW.
 
 **Analizar cómo varía el consumo de potencia en función de la frecuencia de operación y el tipo de tecnología (TTL vs CMOS), considerando las características de cada tecnología.**
 
 Como se puede ver según la ecuación, en general, la potencia dinámica aumenta con respecto a la frecuencia en que opera el circuito. Esto se puede ver para ambos por ejemplo, cambiando la frecuencia de 1kHz que es la que se utilizó en la gráfica de potencia anterior a 100kHz.
 
-Como se puede ver, el pico de potencia que llega el TTL es de aproximadamente -258uW, y para el CMOS es de aproximadamente -525uW.
+Como se puede ver, el pico de potencia que llega el TTL es de aproximadamente 258uW, y para el CMOS es de aproximadamente 525uW.
 
 <img src="./Imagenes/potencia-estatica-dinamica-100khz.png" width="100%">
 
