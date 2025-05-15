@@ -253,6 +253,33 @@ Mientras que con el CMOS fue la siguiente:
 ## Procedimiento
 
 ### Parte 1
+### Parámetros característicos del inversor (CMOS)
+
+**Los datos experimentales obtenido del CMOS se encuentran en la siguiente tabla:**
+| Parámetro      | Valor estimado                  |
+|----------------|----------------------------------|
+| VIL         | **1.2 V**  |
+| VIH         | **3.0 V**  |
+| VOL         | **0.0 V**                        |
+| VOH         | **5.060 V**                      |
+| tr (Rise)   | **0.412 ms**                     |
+| tf (Fall)   | **0.412 ms**                     |
+
+###Parámetros característicos del inversor (CMOS)
+
+**Los datos experimentales obtenido del CMOS se encuentran en la siguiente tabla:**
+
+## Parámetros característicos del inversor (TTL - 74LS04)
+
+| Parámetro      | Valor estimado     |
+|---------------|---------------------|
+| V_IL`         | **1.4 V**          |
+| V_IH         | **2.6 V**          |
+| V_OL         | **78 mV**           |
+| V_OH         | **5.00 V**          |
+| t_r (Rise)   | **0.408 ms**        |
+| t_f (Fall)    | **0.410 ms**        |
+
 
 
 ### Parte 2
