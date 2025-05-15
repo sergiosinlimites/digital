@@ -1,0 +1,94 @@
+LTspice 24.1.7 for Windows
+Circuit: C:\Users\sergi\OneDrive\Documents\Universidad\Digital\Lab1.net
+Start Time: Wed May 14 19:07:57 2025
+C:\Users\sergi\OneDrive\Documents\Universidad\Digital\SN74HCT04.cir(135): Note: The caret character means exponentiation in this context. If you wish to silence this warning, use the "**" operator instead or add ".OPTIONS NO_CARET_WARNING" to your netlist.
++ 2*MAXICC*((V(IN,VEE)-VT)/V(VCC,VEE))^2)*(1 + SGN(V(VCC,VEE) - VCC_MIN))*V(VSWITCH,VEE)}
+                                      ^
+C:\Users\sergi\OneDrive\Documents\Universidad\Digital\SN74HCT04.cir(137): Note: The caret character means exponentiation in this context. If you wish to silence this warning, use the "**" operator instead or add ".OPTIONS NO_CARET_WARNING" to your netlist.
++ 2*MAXICC*((V(IN,VEE)-VT)/V(VCC,VEE))^2)*(1 + SGN(V(VCC,VEE) - VCC_MIN))*V(VSWITCH,VEE)}
+                                      ^
+C:\Users\sergi\OneDrive\Documents\Universidad\Digital\SN74HCT04.cir(139): Note: The caret character means exponentiation in this context. If you wish to silence this warning, use the "**" operator instead or add ".OPTIONS NO_CARET_WARNING" to your netlist.
++ 2*MAXICC*((V(IN,VEE)-(V(VCC,VEE)-VT))/V(VCC,VEE))^2)*(1 + SGN(V(VCC,VEE) - VCC_MIN))*V(VSWITCH1,VEE)}
+                                                   ^
+C:\Users\sergi\OneDrive\Documents\Universidad\Digital\SN74HCT04.cir(141): Note: The caret character means exponentiation in this context. If you wish to silence this warning, use the "**" operator instead or add ".OPTIONS NO_CARET_WARNING" to your netlist.
++ 2*MAXICC*((V(IN,VEE)-(V(VCC,VEE)-VT))/V(VCC,VEE))^2)*(1 + SGN(V(VCC,VEE) - VCC_MIN))*V(VSWITCH1,VEE)}
+                                                   ^
+C:\Users\sergi\OneDrive\Documents\Universidad\Digital\SN74HCT04.cir(135): Note: The caret character means exponentiation in this context. If you wish to silence this warning, use the "**" operator instead or add ".OPTIONS NO_CARET_WARNING" to your netlist.
++ 2*MAXICC*((V(IN,VEE)-VT)/V(VCC,VEE))^2)*(1 + SGN(V(VCC,VEE) - VCC_MIN))*V(VSWITCH,VEE)}
+                                      ^
+C:\Users\sergi\OneDrive\Documents\Universidad\Digital\SN74HCT04.cir(137): Note: The caret character means exponentiation in this context. If you wish to silence this warning, use the "**" operator instead or add ".OPTIONS NO_CARET_WARNING" to your netlist.
++ 2*MAXICC*((V(IN,VEE)-VT)/V(VCC,VEE))^2)*(1 + SGN(V(VCC,VEE) - VCC_MIN))*V(VSWITCH,VEE)}
+                                      ^
+C:\Users\sergi\OneDrive\Documents\Universidad\Digital\SN74HCT04.cir(139): Note: The caret character means exponentiation in this context. If you wish to silence this warning, use the "**" operator instead or add ".OPTIONS NO_CARET_WARNING" to your netlist.
++ 2*MAXICC*((V(IN,VEE)-(V(VCC,VEE)-VT))/V(VCC,VEE))^2)*(1 + SGN(V(VCC,VEE) - VCC_MIN))*V(VSWITCH1,VEE)}
+                                                   ^
+C:\Users\sergi\OneDrive\Documents\Universidad\Digital\SN74HCT04.cir(141): Note: The caret character means exponentiation in this context. If you wish to silence this warning, use the "**" operator instead or add ".OPTIONS NO_CARET_WARNING" to your netlist.
++ 2*MAXICC*((V(IN,VEE)-(V(VCC,VEE)-VT))/V(VCC,VEE))^2)*(1 + SGN(V(VCC,VEE) - VCC_MIN))*V(VSWITCH1,VEE)}
+                                                   ^
+C:\Users\sergi\Downloads\SN74LS04.lib(135): Note: The caret character means exponentiation in this context. If you wish to silence this warning, use the "**" operator instead or add ".OPTIONS NO_CARET_WARNING" to your netlist.
++ 2*MAXICC*((V(IN,VEE)-VT)/V(VCC,VEE))^2)*(1 + SGN(V(VCC,VEE) - VCC_MIN))*V(VSWITCH,VEE)}
+                                      ^
+C:\Users\sergi\Downloads\SN74LS04.lib(137): Note: The caret character means exponentiation in this context. If you wish to silence this warning, use the "**" operator instead or add ".OPTIONS NO_CARET_WARNING" to your netlist.
++ 2*MAXICC*((V(IN,VEE)-VT)/V(VCC,VEE))^2)*(1 + SGN(V(VCC,VEE) - VCC_MIN))*V(VSWITCH,VEE)}
+                                      ^
+C:\Users\sergi\Downloads\SN74LS04.lib(139): Note: The caret character means exponentiation in this context. If you wish to silence this warning, use the "**" operator instead or add ".OPTIONS NO_CARET_WARNING" to your netlist.
++ 2*MAXICC*((V(IN,VEE)-(V(VCC,VEE)-VT))/V(VCC,VEE))^2)*(1 + SGN(V(VCC,VEE) - VCC_MIN))*V(VSWITCH1,VEE)}
+                                                   ^
+C:\Users\sergi\Downloads\SN74LS04.lib(141): Note: The caret character means exponentiation in this context. If you wish to silence this warning, use the "**" operator instead or add ".OPTIONS NO_CARET_WARNING" to your netlist.
++ 2*MAXICC*((V(IN,VEE)-(V(VCC,VEE)-VT))/V(VCC,VEE))^2)*(1 + SGN(V(VCC,VEE) - VCC_MIN))*V(VSWITCH1,VEE)}
+                                                   ^
+C:\Users\sergi\Downloads\SN74LS04.lib(135): Note: The caret character means exponentiation in this context. If you wish to silence this warning, use the "**" operator instead or add ".OPTIONS NO_CARET_WARNING" to your netlist.
++ 2*MAXICC*((V(IN,VEE)-VT)/V(VCC,VEE))^2)*(1 + SGN(V(VCC,VEE) - VCC_MIN))*V(VSWITCH,VEE)}
+                                      ^
+C:\Users\sergi\Downloads\SN74LS04.lib(137): Note: The caret character means exponentiation in this context. If you wish to silence this warning, use the "**" operator instead or add ".OPTIONS NO_CARET_WARNING" to your netlist.
++ 2*MAXICC*((V(IN,VEE)-VT)/V(VCC,VEE))^2)*(1 + SGN(V(VCC,VEE) - VCC_MIN))*V(VSWITCH,VEE)}
+                                      ^
+C:\Users\sergi\Downloads\SN74LS04.lib(139): Note: The caret character means exponentiation in this context. If you wish to silence this warning, use the "**" operator instead or add ".OPTIONS NO_CARET_WARNING" to your netlist.
++ 2*MAXICC*((V(IN,VEE)-(V(VCC,VEE)-VT))/V(VCC,VEE))^2)*(1 + SGN(V(VCC,VEE) - VCC_MIN))*V(VSWITCH1,VEE)}
+                                                   ^
+C:\Users\sergi\Downloads\SN74LS04.lib(141): Note: The caret character means exponentiation in this context. If you wish to silence this warning, use the "**" operator instead or add ".OPTIONS NO_CARET_WARNING" to your netlist.
++ 2*MAXICC*((V(IN,VEE)-(V(VCC,VEE)-VT))/V(VCC,VEE))^2)*(1 + SGN(V(VCC,VEE) - VCC_MIN))*V(VSWITCH1,VEE)}
+                                                   ^
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = trap
+C:\Users\sergi\OneDrive\Documents\Universidad\Digital\Lab1.net(3): Limiting rise time to 5e-07.
+
+V1 VinHCT 0 PULSE(0 5 0s 0s 0s 0.000005s 0.00001s)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\sergi\OneDrive\Documents\Universidad\Digital\Lab1.net(3): Limiting fall time to 5e-07.
+
+V1 VinHCT 0 PULSE(0 5 0s 0s 0s 0.000005s 0.00001s)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\sergi\OneDrive\Documents\Universidad\Digital\Lab1.net(5): Limiting rise time to 5e-07.
+
+V3 VinLS 0 PULSE(0 5 0s 0s 0s 0.000005s 0.00001s)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\sergi\OneDrive\Documents\Universidad\Digital\Lab1.net(5): Limiting fall time to 5e-07.
+
+V3 VinLS 0 PULSE(0 5 0s 0s 0s 0.000005s 0.00001s)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 2.314 seconds.
+
+Files loaded:
+C:\Users\sergi\OneDrive\Documents\Universidad\Digital\Lab1.net
+C:\Users\sergi\Downloads\SN74LS04.lib
+C:\Users\sergi\OneDrive\Documents\Universidad\Digital\SN74HCT04.cir
+
+vmax: MAX(v(vouthct))=4.99986171722 FROM 0 TO 5e-05
+t10a: v(vouthct)=0.1*vmax AT 5.75833565748e-06
+t90a: v(vouthct)=0.9*vmax AT 5.76868918618e-06
+t10b: v(vouthct)=0.1*vmax AT 2.75059493412e-07
+t90b: v(vouthct)=0.9*vmax AT 2.61931816119e-07
+trise: t90a-t10a=1.03535287003e-08
+tfall: t90b-t10b=-1.31276772928e-08
+vmax2: MAX(v(voutls))=4.97542619705 FROM 0 TO 5e-05
+t10a2: v(voutls)=0.1*vmax2 AT 5.75833565748e-06
+t90a2: v(voutls)=0.9*vmax2 AT 5.76868918618e-06
+t10b2: v(voutls)=0.1*vmax2 AT 2.5817855179e-07
+t90b2: v(voutls)=0.9*vmax2 AT 2.41280114453e-07
+t2rise: t90a2-t10a2=1.03535287003e-08
+t2fall: t90b2-t10b2=-1.68984373378e-08
