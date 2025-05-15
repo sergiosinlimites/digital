@@ -308,8 +308,18 @@ Mientras que con el CMOS fue la siguiente:
 
 1. **Determinar el fan-in y fan-out de cada uno de los dispositivos.**
 
+**Fan-in_TTL = 1**
 
+I_OL = 8 mA
+I_IL = 0.4 mA
 
+I_OH = 0.4 mA
+I_IH = 20 µA
+
+Fan-out_bajo = I_OL / I_IL = 8 mA / 0.4 mA = 20
+Fan-out_alto = I_OH / I_IH = 0.4 mA / 20 µA = 20
+
+Fan-out_TTL = min(20, 20) = 20
 
 2. **Determinar el consumo de potencia de cada dispositivo.**
 
@@ -321,11 +331,34 @@ Mientras que con el CMOS fue la siguiente:
 
 
 
+
 ### Parte 3
 
-1. **Implementar dos configuraciones diferentes de osciladores en anillo utilizando compuertas CMOS. Observar y registrar la frecuencia de oscilación generada por cada configuración.**
+###Oscilador en anillo basado en la compuerta NOT
 
-2. **Comparar el desempeño de las dos configuraciones de osciladores en anillo, analizando las diferencias en la forma de onda generada, estabilidad y frecuencia de oscilación.**
+Los osciladores en anillo que utilizan compuertas NOT se distinguen por su capacidad para generar señales oscilatorias de alta frecuencia sin requerir una señal de entrada externa. Este tipo de oscilador se construye conectando un número impar de inversores en un lazo cerrado.
+
+Su principio de funcionamiento se basa en la realimentación que se produce al unir la salida del último inversor con la entrada del primero. Debido al retardo inherente en la propagación de señal a través de cada compuerta, el circuito no puede estabilizarse en un único estado lógico. Esto provoca una conmutación continua, generando así la oscilación.
+
+#### Oscilador en anillo con 3 compuertas NOT
+<img src="./Imagenes/Circuito Anillo 3.png" alt="VIH CMOS" width="50%">
+<img src="./Imagenes/Simulación_3_Anillos.JPG" alt="VIH CMOS" width="50%">
+<img src="./Imagenes/Anillo-3-LAB.jpg" alt="VIH CMOS" width="50%">
+
+#### Oscilador en anillo con 5 compuertas NOT
+<img src="./Imagenes/Circuito Anillo 5.png" alt="VIH CMOS" width="50%">
+<img src="./Imagenes/Simulación_3_Anillos.JPG" alt="VIH CMOS" width="50%">
+<img src="./Imagenes/Anillo-3-LAB.jpg" alt="VIH CMOS" width="50%">
+
+####Análisis Osciladores
+
+En esta práctica se implementó un oscilador en anillo compuesto por tres y 5 inversores, tanto en un entorno de simulación (LTspice) como de forma experimental en laboratorio. El objetivo fue observar el comportamiento oscilatorio del sistema y comparar los resultados obtenidos.
+
+En la simulación con LTspice, la señal generada no fue una onda cuadrada ideal como se podría esperar teóricamente. En su lugar, se observó una señal oscilatoria de forma irregular, con picos de diferente amplitud y una especie de modulación superpuesta. Esta distorsión puede deberse a las características internas del modelo de las compuertas utilizadas, el tipo de simulación transitoria, o incluso a la ausencia de una carga adecuada o de componentes adicionales como resistencias de polarización.
+
+Por otro lado, en la implementación práctica, si bien tampoco se obtuvo una onda perfectamente cuadrada, la señal resultó ser más estable y reconocible en cuanto a su patrón de conmutación, mostrando la típica alternancia de un oscilador en anillo. Sin embargo, las amplitudes medidas en laboratorio fueron considerablemente más bajas que las obtenidas en la simulación. Esto es coherente con las limitaciones reales de los componentes físicos, como el retardo de propagación de las compuertas, la capacitancia parasitaria, y las condiciones de alimentación.
+
+Aunque ambos entornos confirmaron el comportamiento oscilatorio básico, ni la forma ni los valores de la señal coincidieron plenamente. La simulación produjo una señal más rápida pero con distorsión, mientras que la implementación real ofreció una señal más definida pero con una tensionmenor. Esto pone de manifiesto las diferencias inherentes entre el comportamiento idealizado en simuladores y las condiciones reales en hardware.
 
 
 
