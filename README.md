@@ -302,6 +302,10 @@ Mientras que con el CMOS fue la siguiente:
 
 ### Parte 2
 
+
+
+<img src="./Imagenes/parte2-1.jpg" width="100%">
+
 1. **Determinar el fan-in y fan-out de cada uno de los dispositivos.**
 
 
