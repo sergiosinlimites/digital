@@ -94,12 +94,12 @@ En otras configuraciones se puede incluir un segundo transistor NPN (Q2) que cum
 
 Cada dispositivo tiene niveles de voltaje de entrada y salida para distinguir entre estados lógicos de "0" y "1". A continuación, se muestran los voltajes requeridos:
 
-| Parámetro                       | TTL (74LS04)                     | CMOS (CD4069)                 |
+| Parámetro                       | TTL (74LS04)                     | CMOS (74HCT04)                 |
 |---------------------------------|----------------------------------|-------------------------------|
-| **Input High Voltage (VIH)**    | 2V | 2V |
+| **Input High Voltage (VIH)**    | Min 2V | Min 2V |
 | **Input Low Voltage (VIL)**     | Máx 0.8V | Máx 0.8V |
-| **Output High Voltage (VOH)**   | Mínimo 2.7V (típico 3.4V) | Mín 4.4 (Típico 4.5V) |
-| **Output Low Voltage (VOL)**    | Máximo 0.5V (típico 0.35V)| Máximo 0.1V |
+| **Output High Voltage (VOH)**   | Mín 2.7V (típico 3.4V) | Mín 4.4 (Típico 4.5V) |
+| **Output Low Voltage (VOL)**    | Máx 0.5V (típico 0.35V)| Máx 0.1V |
 
 ### Fan-in y Fan-out
 
@@ -174,25 +174,25 @@ Las funciones de transferencia para los circuitos montados fueron las siguientes
 Para HCT:
 <img src="./Imagenes/ft-hct-1khz.png" width="100%">
 
-V<sub>IL</sub> ≃ 2,48 V
+V<sub>IL</sub> = 2,513 V
 
-V<sub>IH</sub> ≃ 2,50 V
+V<sub>IH</sub> = 2,480 V
 
-V<sub>OH</sub> ≃ 4,85 V
+V<sub>OH</sub> = 4,850 V
 
-V<sub>OL</sub> ≃ 0,05 V
+V<sub>OL</sub> = 0,050 V
 
 Para LS:
 <img src="./Imagenes/ft-ls-1khz.png" width="100%">
 
 
-V<sub>IL</sub> ≃ 2,487 V
+V<sub>IL</sub> = 2,503 V 
 
-V<sub>IH</sub> ≃ 2,50 V
+V<sub>IH</sub> = 2,487 V
 
-V<sub>OH</sub> ≃ 4,80 V
+V<sub>OH</sub> = 4,850 V
 
-V<sub>OL</sub> ≃ 0,05 V
+V<sub>OL</sub> = 0,050 V
 
 ## Estimación de tiempos de conmutación:
 * Obtenier tiempos de subida ($t_r$), bajada ($t_f$) y retardo ($t_{PLH}$, $t_{PHL}$ y $t_{P}$) para cada tecnología.
