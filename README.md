@@ -253,6 +253,27 @@ Mientras que con el CMOS fue la siguiente:
 ## Procedimiento
 
 ### Parte 1
+### Graficas del osciloscopio
+
+**CMOS:**
+
+<img src="./Imagenes/CMOSFT.jpg" width="100%">
+
+<img src="./Imagenes/CMOSdatos.jpg" width="100%">
+
+
+### Graficas del osciloscopio
+
+**TTL:**
+
+<img src="./Imagenes/TTLFT.jpg" width="100%">
+
+<img src="./Imagenes/TTLDatos.jpg" width="100%">
+
+
+
+**Los datos experimentales obtenido del CMOS se encuentran en las siguientes tablas:**
+
 ### Parámetros característicos del inversor (CMOS)
 
 **Los datos experimentales obtenido del CMOS se encuentran en la siguiente tabla:**
@@ -265,11 +286,8 @@ Mientras que con el CMOS fue la siguiente:
 | tr (Rise)   | **0.412 ms**                     |
 | tf (Fall)   | **0.412 ms**                     |
 
-###Parámetros característicos del inversor (CMOS)
 
-**Los datos experimentales obtenido del CMOS se encuentran en la siguiente tabla:**
-
-## Parámetros característicos del inversor (TTL - 74LS04)
+## Parámetros característicos del inversor (TTL)
 
 | Parámetro      | Valor estimado     |
 |---------------|---------------------|
