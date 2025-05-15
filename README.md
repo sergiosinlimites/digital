@@ -4,7 +4,7 @@
 
 [Sergio Andrés Bolaños Penagos](https://github.com/sergiosinlimites)
 <br>
-[Juan José Rincon](https://github.com/)
+[Juan José Rincón Monsalve](https://github.com/)
 <br>
 [Johan Camilo Patiño Mogollon](https://github.com/)
 
