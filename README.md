@@ -304,8 +304,18 @@ Mientras que con el CMOS fue la siguiente:
 
 1. **Determinar el fan-in y fan-out de cada uno de los dispositivos.**
 
+**Fan-in_TTL = 1**
 
+I_OL = 8 mA
+I_IL = 0.4 mA
 
+I_OH = 0.4 mA
+I_IH = 20 µA
+
+Fan-out_bajo = I_OL / I_IL = 8 mA / 0.4 mA = 20
+Fan-out_alto = I_OH / I_IH = 0.4 mA / 20 µA = 20
+
+Fan-out_TTL = min(20, 20) = 20
 
 2. **Determinar el consumo de potencia de cada dispositivo.**
 
