@@ -318,8 +318,22 @@ Fan-out_alto = I_OH / I_IH = 0.4 mA / 20 µA = 20
 Fan-out_TTL = min(20, 20) = 20
 
 2. **Determinar el consumo de potencia de cada dispositivo.**
+ 
+### CMOS
 
+Vcc = 5 V
+Icc = 1 µA 
 
+P_CMOS_por_inversor = 5 V × 1 µA = 5 µW
+P_CMOS_total (6 inversores) = 6 × 5 µW = 30 µW
+
+### TTL 
+
+Vcc = 5 V
+Icc = 2 mA 
+
+P_TTL_por_inversor = 5 V × 2 mA = 10 mW
+P_TTL_total (6 inversores) = 6 × 10 mW = 60 mW
 
 
 3. **Proponer e implementar un circuito de entrada y de salida para cada uno de los dispositivos teniendo en cuenta los parámetros de cada tecnología para observar el comportamiento del mismo.**
